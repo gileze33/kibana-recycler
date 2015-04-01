@@ -2,7 +2,7 @@
   "name": "kibana-recycler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "run.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,9 @@
     "easy-server": "0.0.7",
     "elasticsearch": "^4.0.2",
     "request": "^2.54.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "kibana-recycler" : "run.js"
   }
 }

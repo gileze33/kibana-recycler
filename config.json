@@ -5,15 +5,5 @@
 		"window": 2
 	}, {
 		"match": "log.stg-*"
-	}],
-
-	"snapshotsEnabled": true,
-	"repositoryId": "recycler",
-	"repository": {
-		"type": "fs",
-	    "settings": {
-	        "location": "/mount/backups/my_backup",
-	        "compress": true
-	    }
-	}
+	}]
 }

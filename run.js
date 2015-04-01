@@ -7,8 +7,6 @@ var async = require('async');
 
 require('colors');
 
-//console.log(config);
-
 var Pattern = require('./lib/pattern');
 
 var patterns = [];

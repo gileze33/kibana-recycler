@@ -14,7 +14,7 @@ var async = require('async');
 
 require('colors');
 
-var Pattern = require(__dirname + '/lib/pattern');
+var Pattern = require(__dirname + '/lib/Pattern');
 
 var patterns = [];
 for(var i=0; i<config.patterns.length; i++) {

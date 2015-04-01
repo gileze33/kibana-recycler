@@ -1,6 +1,6 @@
 {
   "name": "kibana-recycler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "run.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "kibana-recycler" : "run.js"
+    "kibana-recycler": "run.js"
   }
 }

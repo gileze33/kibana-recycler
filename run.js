@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var configPath = process.env.argv[2];
+var configPath = process.argv[2];
 if(!configPath) {
     throw new Error('You must pass a path to a config file');
 }
